@@ -1,0 +1,37 @@
+GET http://localhost:3000/users/
+
+#############################################################################################
+
+POST http://localhost:3000/users/
+
+Content-Type: application/json
+
+{
+  "name": "John Doe",
+  "password": "RlYpaSsWoord321"
+}
+
+#############################################################################################
+
+POST http://localhost:3000/users/
+
+Content-Type: application/json
+
+{
+  "name": "John D",
+  "password": "RlYpaSsWoord321"
+}
+
+#############################################################################################
+POST http://localhost:3000/users/
+
+Content-Type: application/json
+
+{
+  "name": "JohnDoe",
+  "password": "RlYpaSsWoord321"
+}
+
+#############################################################################################
+
+GET http://localhost:3000/users/
