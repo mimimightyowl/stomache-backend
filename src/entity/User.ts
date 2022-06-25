@@ -7,12 +7,9 @@ export class User {
     id: number
 
     @Column()
-    firstName: string
+    login: string
 
     @Column()
-    lastName: string
-
-    @Column()
-    age: number
+    password: string
 
 }
