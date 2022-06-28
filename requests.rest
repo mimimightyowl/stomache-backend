@@ -1,8 +1,8 @@
-GET http://localhost:3000/users/
+GET http://localhost:3306/users/
 
 #############################################################################################
 
-POST http://localhost:3000/users/
+POST http://localhost:3306/users/
 Content-Type: application/json
 
 {
@@ -12,7 +12,7 @@ Content-Type: application/json
 
 #############################################################################################
 
-POST http://localhost:3000/users/login
+POST http://localhost:3306/users/login
 Content-Type: application/json
 
 {
